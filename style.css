@@ -1,6 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Alan+Sans:wght@300..900&family=Oswald:wght@200..700&display=swap');
 :root {
-    --space-cadet: #2b2d42ff;
-    --cool-gray: #8d99aeff;
-    --antiflash-white: #edf2f4ff;
-    --red-pantone: #ef233cff;
+
+    --preto: #2b2d42ff;
+    --cinza: #8d99aeff;
+    --branco: #edf2f4ff;
+    --vermelho: #ef233cff;
+    --titulo: "Alan Sans", sans-serif;
+    --texto: "Oswald", sans-serif;
+}
+
+body{
+    background-color: var(--preto);
+    font-family: var(--texto);
 }
