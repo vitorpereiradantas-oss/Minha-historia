@@ -18,3 +18,18 @@ body{
     margin: 0;
     padding: 0;
 }
+button{ background-color: var(--preto);
+    color: var(--branco);
+    padding: 10px;
+    border: 2px solid var(--branco);
+    border-radius: 8px;
+    font-size: 20px;
+    margin: 5px;
+}
+button:hover{
+    background-color: var(--cinza);
+    color: var(--preto);
+    transition: 0.5;
+    border: 2px solid
+}
+    
